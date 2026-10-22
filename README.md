@@ -28,9 +28,9 @@
 - **Згортання стека викликів:**
   Сирі дані за допомогою скрипта перетворено у згорнутий формат:
   ```bash
- sudo perf script > out.perf
+  sudo perf script > out.perf
 ~/FlameGraph/stackcollapse-perf.pl out.perf > folded.perf
 - **Генерація фінального графіка (SVG):**
  Створено векторний інтерактивний графік flamegraph_00.svg:
   ```bash
-~/FlameGraph/flamegraph.pl folded.perf > flamegraph_O0.svg
+  ~/FlameGraph/flamegraph.pl folded.perf > flamegraph_O0.svg

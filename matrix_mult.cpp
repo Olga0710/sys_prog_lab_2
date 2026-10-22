@@ -5,7 +5,7 @@
 const int N = 1024;
 
 void multiply(const std::vector<float>& a, const std::vector<float>& b, std::vector<float>& c) {
-    for (int i, int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
             float sum = 0.0f;
             for (int k = 0; k < N; k++) {
